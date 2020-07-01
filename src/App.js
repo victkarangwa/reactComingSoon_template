@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 
 // Renderer callback with condition
 // Random component
-const Completionist = () => <span>Let's get ready for it!</span>;
+const Completionist = () => <span className='ready-txt'>Let's get ready for it!</span>;
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
     // Render a completed state
