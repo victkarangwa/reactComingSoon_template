@@ -58,13 +58,6 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 function App() {
   const classes = useStyles();
   const [openSnackbar, setOpenSnackbar] = useState(false);
-  const [message, setMessage] = useState('');
-  const [type, setType] = useState('');
-
-  function validateEmail(email) {
-    var re = /\S+@\S+\.\S+/;
-    return re.test(email);
-  }
 
   const handleClose = () => {
     setOpenSnackbar(false);
