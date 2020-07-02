@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactComingSoon_template/static/css/main.278b60cb.chunk.css",
+    "main.js": "/reactComingSoon_template/static/js/main.9551bcec.chunk.js",
+    "main.js.map": "/reactComingSoon_template/static/js/main.9551bcec.chunk.js.map",
+    "runtime-main.js": "/reactComingSoon_template/static/js/runtime-main.337b645c.js",
+    "runtime-main.js.map": "/reactComingSoon_template/static/js/runtime-main.337b645c.js.map",
+    "static/js/2.33b11cdb.chunk.js": "/reactComingSoon_template/static/js/2.33b11cdb.chunk.js",
+    "static/js/2.33b11cdb.chunk.js.map": "/reactComingSoon_template/static/js/2.33b11cdb.chunk.js.map",
+    "index.html": "/reactComingSoon_template/index.html",
+    "precache-manifest.3c06a647b9f8ba6cba28b71e67c05a59.js": "/reactComingSoon_template/precache-manifest.3c06a647b9f8ba6cba28b71e67c05a59.js",
+    "service-worker.js": "/reactComingSoon_template/service-worker.js",
+    "static/css/main.278b60cb.chunk.css.map": "/reactComingSoon_template/static/css/main.278b60cb.chunk.css.map",
+    "static/js/2.33b11cdb.chunk.js.LICENSE.txt": "/reactComingSoon_template/static/js/2.33b11cdb.chunk.js.LICENSE.txt",
+    "static/media/thecampusLogo.jpeg": "/reactComingSoon_template/static/media/thecampusLogo.d6dab34f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.337b645c.js",
+    "static/js/2.33b11cdb.chunk.js",
+    "static/css/main.278b60cb.chunk.css",
+    "static/js/main.9551bcec.chunk.js"
+  ]
+}
