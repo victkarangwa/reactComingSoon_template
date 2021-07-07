@@ -5,8 +5,7 @@ import "antd/dist/antd.css";
 import "./assets/styles/index.css";
 import "./assets/styles/mobile.css";
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
-serviceWorker.register();
+
