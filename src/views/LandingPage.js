@@ -24,7 +24,6 @@ function App() {
 
   const dispatch = useDispatch();
 
-  
   useEffect(() => {
     if (userSubscription?.status !== "fail") {
       setInputValue("");
@@ -40,54 +39,54 @@ function App() {
   };
 
   return (
-      <div className="d-flex flex-column">
-        <div className="page-body w-100 d-flex flex-row justify-content-between p-5">
-          <div className="w-50 ">
-            <div className="d-flex flex-row">
-              <div className="logo-container">
-                <RadarChartOutlined />
-              </div>
+    <div className="d-flex flex-column">
+      <div className="page-body w-100 d-flex flex-row justify-content-between p-5">
+        <div className="w-50 web-info-block">
+          <div className="d-flex flex-row">
+            <div className="logo-container">
+              <RadarChartOutlined />
+            </div>
 
-              <h2 className="log-text pt-3">The Peak Jobs</h2>
-            </div>
-            <h3 className="text-lg">We are almost there</h3>
-            <p className="text-sm">Stay tuned for something amazing</p>
-            <div className="w-75">
-              <Search
-                placeholder="Your email address"
-                onSearch={onSubscribe}
-                enterButton="Notify me"
-                size="large"
-                loading={loading}
-                value={inputValue}
-                onChange={(e) => setInputValue(e.target.value)}
-              />
-              {userSubscription?.status === "fail" && (
-                <Alert
-                  className="mt-2 text-sentence-case"
-                  message={userSubscription?.message}
-                  type="error"
-                />
-              )}
-            </div>
+            <h2 className="log-text pt-3">The Peak Jobs</h2>
           </div>
-          <div className="w-50">
-            <img
-              className="w-100"
-              alt="The peak Jobs illustration"
-              src={app_illustration}
+          <h3 className="text-lg">We are almost there</h3>
+          <p className="text-sm">Stay tuned for something amazing</p>
+          <div className="w-75 input-container">
+            <Search
+              placeholder="Your email address"
+              onSearch={onSubscribe}
+              enterButton="Notify me"
+              size="large"
+              loading={loading}
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
             />
+            {userSubscription?.status === "fail" && (
+              <Alert
+                className="mt-2 text-sentence-case"
+                message={userSubscription?.message}
+                type="error"
+              />
+            )}
           </div>
         </div>
-        <div className="footer">
-          <div className="social-media-container d-flex flex-row m-auto justify-content-between">
-            <FacebookFilled />
-            <TwitterCircleFilled />
-            <InstagramFilled />
-            <LinkedinFilled />
-          </div>
+        <div className="web-illis-block w-50">
+          <img
+            className="w-100"
+            alt="The peak Jobs illustration"
+            src={app_illustration}
+          />
         </div>
       </div>
+      <div className="footer">
+        <div className="social-media-container d-flex flex-row m-auto justify-content-between">
+          <FacebookFilled />
+          <TwitterCircleFilled />
+          <InstagramFilled />
+          <LinkedinFilled />
+        </div>
+      </div>
+    </div>
   );
 }
 

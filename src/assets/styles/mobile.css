@@ -1,0 +1,29 @@
+@media only screen and (max-width: 500px) {
+  .text-lg {
+    font-weight: bolder;
+    color: #00bfa6;
+    margin-top: 20px;
+    font-family: poppins;
+    font-weight: bolder;
+  }
+  h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  .input-container {
+    padding-top: 20px;
+    width: 100% !important;
+  }
+  .page-body {
+    display: flex;
+    flex-direction: column !important;
+    padding: 20px !important;
+  }
+  .web-info-block{
+    width: 100% !important;
+  }
+  .web-illis-block{
+    width: 100% !important;
+    margin-top: 30px;
+  }
+}
