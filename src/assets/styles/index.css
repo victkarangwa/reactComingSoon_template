@@ -1,0 +1,52 @@
+.text-lg {
+  font-weight: bolder;
+  color: #00bfa6;
+  margin-top: 100px;
+  font-family: poppins;
+  font-weight: bolder;
+}
+h3 {
+  font-size: 72px;
+  text-transform: uppercase;
+}
+.text-sm {
+  font-family: poppins;
+  color: #919191;
+  font-weight: normal;
+  font-size: 20px;
+}
+.logo-container {
+  font-size: 35px;
+  color: #00bfa6;
+}
+.log-text{
+    color: #686868;  
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+button {
+    background-color: #00bfa6 !important;
+    border-color: #00bfa6 !important;
+  }
+  button:hover {
+    background-color: #007c6c !important;
+    border-color: #007c6c !important;
+  }
+  button:focus {
+    background-color: #007c6c !important;
+    border-color: #007c6c !important;
+  }
+
+.social-media-container{
+    color: #686868;
+    width: 200px;
+    padding-top: 70px;
+    font-size: 20px;;
+}
+
+.social-media-container span{
+    cursor: pointer;
+}
+
+
