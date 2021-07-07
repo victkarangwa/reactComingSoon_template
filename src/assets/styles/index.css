@@ -30,12 +30,12 @@ button {
     border-color: #00bfa6 !important;
   }
   button:hover {
-    background-color: #007c6c !important;
-    border-color: #007c6c !important;
+    background-color: #029e89 !important;
+    border-color: #029e89 !important;
   }
   button:focus {
-    background-color: #007c6c !important;
-    border-color: #007c6c !important;
+    background-color: #029e89 !important;
+    border-color: #029e89 !important;
   }
 
 .social-media-container{
@@ -49,4 +49,6 @@ button {
     cursor: pointer;
 }
 
-
+.text-sentence-case::first-letter {
+  text-transform: uppercase;
+}
