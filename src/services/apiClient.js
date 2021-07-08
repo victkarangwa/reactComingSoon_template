@@ -28,7 +28,7 @@ const reject = (error) => {
 
 const instance = axios.create({
   // eslint-disable-next-line no-undef
-  baseURL: "https://thepeakjobs-api.herokuapp.com/api/v1",
+  baseURL: "https://thepeakjobs-api.herokuapp.com",
   headers: {
     "Content-Type": "application/json",
     // authorization: `${localStorage.getItem("tpj-token")}`,
