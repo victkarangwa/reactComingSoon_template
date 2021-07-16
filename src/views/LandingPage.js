@@ -86,10 +86,10 @@ function App() {
         </div>
         <div className="footer">
           <div className="social-media-container d-flex flex-row m-auto justify-content-between">
-            <FacebookFilled />
-            <TwitterCircleFilled />
-            <InstagramFilled />
-            <LinkedinFilled />
+            <a href="https://www.facebook.com/thepeakjobs/"><FacebookFilled/> </a>
+            <a href="https://twitter.com/thepeakjobs/"><TwitterCircleFilled /> </a>
+            <a href="https://www.instagram.com/thepeakjobs/"><InstagramFilled /> </a>
+            <a href="https://www.linkedin.com/company/thepeakjobs/"><LinkedinFilled /> </a>
           </div>
         </div>
       </div>

@@ -63,3 +63,11 @@ button {
 .main-properties-cont{
   color: #00bfa6;
 }
+
+a{
+  color: inherit;
+}
+
+a:hover{
+  color: #00bfa6;
+}
