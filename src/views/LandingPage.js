@@ -11,7 +11,7 @@ import {
 } from "@ant-design/icons";
 import app_illustration from "../assets/img/app_illustration.png";
 import { subscribe } from "../redux/actions/mail";
-import { triggerDynos } from "../redux/actions/core";
+// import { triggerDynos } from "../redux/actions/core";
 
 const { Search } = Input;
 
@@ -27,7 +27,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    triggerDynos()(dispatch);
+    // triggerDynos()(dispatch);
     if (userSubscription?.status !== "fail") {
       setInputValue("");
     }
@@ -44,7 +44,7 @@ function App() {
   const antIcon = <LoadingOutlined style={{ fontSize: 24, color: "#00bfa6" }} spin />;
 
   return (
-    <Spin className="main-properties-cont" indicator={antIcon} tip="Putting things together..." spinning={!isDynosUp}>
+    // <Spin className="main-properties-cont" indicator={antIcon} tip="Putting things together..." spinning={!isDynosUp}>          </Spin>
       <div className="d-flex flex-column">
         <div className="page-body w-100 d-flex flex-row justify-content-between p-5">
           <div className="w-50 web-info-block">
@@ -93,7 +93,6 @@ function App() {
           </div>
         </div>
       </div>
-    </Spin>
   );
 }
 

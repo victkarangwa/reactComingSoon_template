@@ -28,7 +28,9 @@ const reject = (error) => {
 
 const instance = axios.create({
   // eslint-disable-next-line no-undef
-  baseURL: "https://thepeakjobs-api.herokuapp.com",
+  baseURL:  process.env.NODE_ENV !== "development"
+  ? process.env.REACT_APP_PROD_URL
+  : process.env.REACT_APP_DEV_URL,
   headers: {
     "Content-Type": "application/json",
     // authorization: `${localStorage.getItem("tpj-token")}`,
